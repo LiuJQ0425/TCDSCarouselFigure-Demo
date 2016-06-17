@@ -34,7 +34,8 @@
 
 //  2  使用图片下载链接初始化  部分代码
 
-    _arr = [NSMutableArray arrayWithObjects:@"http://bt.img.17gwx.com/topic/0/4/dllf/600x330",                                                                     @"http://bt.img.17gwx.com/topic/0/5/d1he/600x330", 
+    _arr = [NSMutableArray arrayWithObjects:@"http://bt.img.17gwx.com/topic/0/4/dllf/600x330",
+                                            @"http://bt.img.17gwx.com/topic/0/5/d1he/600x330", 
                                             @"http://bt.img.17gwx.com/topic/0/12/c1NdYQ/600x330", 
                                             @"http://bt.img.17gwx.com/topic/0/6/dFVY/600x330", 
                                             @"http://bt.img.17gwx.com/topic/0/2/cFdZ/600x330", 
