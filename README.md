@@ -6,6 +6,7 @@
 
 
 //  1  使用UIImage数组初始化  部分代码
+
     _carouselFigure = [[TCDSCarouselFigure alloc]initWithImages:self.images
                                                           frame:CGRectMake(0, 22, self.view.frame.size.width, self.view.frame.size.width * 9 / 16)];
     [self.view addSubview:_carouselFigure];
@@ -14,6 +15,7 @@
     [_carouselFigure startLoop];
 
 //懒加载UIImage数组
+
 -(NSMutableArray *)images {
     if (!_images) {
         _images = [NSMutableArray arrayWithArray:@[[UIImage imageNamed:@"1"],[UIImage imageNamed:@"2"],[UIImage imageNamed:@"3"],[UIImage imageNamed:@"4"],[UIImage imageNamed:@"5"],[UIImage imageNamed:@"6"],[UIImage imageNamed:@"7"],[UIImage imageNamed:@"8.jpg"],[UIImage imageNamed:@"9.jpg"]]];
